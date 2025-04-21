@@ -1,0 +1,37 @@
+0 0 0 0 0 1:Wizard.png 0 0 0 0 0 2:Crystal_texture1.png
+0
+0
+0
+0
+0
+0 0 0 0 0 3:Crystal_texture2.png 0 0 0 0 0 4:Crystal_texture3.png
+0
+0
+0
+0
+0
+0 0 0 0 0 5:Crystal_texture4.png 0 0 0 0 0 6:Crystal_texture5.png
+0
+0
+0
+0
+0
+0 0 0 0 0 7:Crystal_texture1.png 0 0 0 0 0 8:Crystal_texture6.png
+0
+0
+0
+0
+0
+0 0 0 0 0 9:Crystal_texture2.png 0 0 0 0 0 10:Crystal_texture3.png
+0
+0
+0
+0
+0
+0 0 0 0 0 11:Crystal_texture4.png 0 0 0 0 0 12:Crystal_texture5.png
+0
+0
+0
+0
+0
+0 0 0 0 0 13:Crystal_texture6.png 0 0 0 0 0
