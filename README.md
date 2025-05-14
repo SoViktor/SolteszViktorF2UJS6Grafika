@@ -86,7 +86,7 @@ Itt a számok különböző modelleket jelentenek:
 - Textúrák: PNG vagy JPG, egyelőre MTL fájl alapján töltődnek be.
 - A program a `main.c`-ből indul, ne felejtsd el lefordítani az összes `.c` fájlt!
 
-#### 🧙 Wizard Game 0.2 – Verzió újdonságai
+# 🧙 Wizard Game 0.2 – Verzió újdonságai
 ## 🌄 Terrain rendszer
 -A domborzat (heightmap) és a textúratérkép (texturemap) már PNG fájlokból töltődik be.
 -A terep egy folyamatos, lépcsőzésmentes terrain_mesh-ként generálódik.
