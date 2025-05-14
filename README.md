@@ -86,3 +86,47 @@ Itt a számok különböző modelleket jelentenek:
 - Textúrák: PNG vagy JPG, egyelőre MTL fájl alapján töltődnek be.
 - A program a `main.c`-ből indul, ne felejtsd el lefordítani az összes `.c` fájlt!
 
+####🧙 Wizard Game 0.2 – Verzió újdonságai
+##🌄 Terrain rendszer
+-A domborzat (heightmap) és a textúratérkép (texturemap) már PNG fájlokból töltődik be.
+-A terep egy folyamatos, lépcsőzésmentes terrain_mesh-ként generálódik.
+-Bizonyos tile-típusok között jelenleg átfolyás (seam) figyelhető meg – ezek javítása a következő verziók egyik célja lesz.
+
+##🧱 Modellek
+-A korábbi player modell eltávolításra került – a jövőben .glb fájlban, animációval együtt kerül be.
+-.obj modellek elhelyezése ~80%-ban kész: random forgatás még nem tökéletes, de nem sürgető.
+-Különböző típusú modellek támogatottak:
+
+Színes (vertex color alapú)
+
+Egyszerű, egy textúrás modellek
+
+Több anyagos / több textúrás modellek (.obj + .mtl alapján)
+
+-Az elhelyezés .png típusú "biome" térkép alapján történik, ami nem fix pozíciókat, hanem valószínűségi eloszlást definiál egy adott területen.
+
+##🎲 Saját véletlenszám-generátor
+-Bevezetésre került egy saját random rendszer, így mindig ugyanaz a világ generálódik azonos seed esetén.
+-Jelenleg a seed fix (konstans), a későbbiekben mentéskor fog tárolódni.
+
+##🎥 Kamera és vezérlés
+-A kamera mozgása és a játékos pozíciója immár jobban összehangolt.
+-Cheat mód (P billentyű): szabadon mozgatható kamera (free-fly).(Még nem működik rendesen)
+-A Wireframe mód (F2), és a kamera állapot kiírása (F3) is elérhető.
+
+##✨ Átlátszóság
+-A kristálymodelleknél bevezetésre került az átlátszóság (alpha blending).
+-Jelenleg egységes átlátszóság (pl. 0.6f) van alkalmazva, de a sorrend szerinti rajzolás és finomhangolás még hátra van.
+
+##🛠 Build rendszer
+-A fordítás mostantól Makefile alapú.
+-A tasks.json automatikusan ezt hívja meg VS Code-ban, így egyszerűen és gyorsan lehet fordítani.
+
+##⚠️ Megjegyzés
+-A projektet sajnos egy komoly hiba miatt újra kellett kezdeni. Emiatt előfordulhatnak olyan elemek, amelyek korábban már működtek, de a mostani verzióban még nincsenek implementálva.
+
+##📦 Assets
+-A szükséges assetek letölthetők innen:
+https://drive.google.com/file/d/1flusGZMYSA_hpVMtx_4PKbfYPpjnSGxJ/view?usp=sharing
+
+
