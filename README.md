@@ -88,9 +88,9 @@ Itt a számok különböző modelleket jelentenek:
 
 # 🧙 Wizard Game 0.2 – Verzió újdonságai
 ## 🌄 Terrain rendszer
--A domborzat (heightmap) és a textúratérkép (texturemap) már PNG fájlokból töltődik be.
--A terep egy folyamatos, lépcsőzésmentes terrain_mesh-ként generálódik.
--Bizonyos tile-típusok között jelenleg átfolyás (seam) figyelhető meg – ezek javítása a következő verziók egyik célja lesz.
+- A domborzat (heightmap) és a textúratérkép (texturemap) már PNG fájlokból töltődik be.
+- A terep egy folyamatos, lépcsőzésmentes terrain_mesh-ként generálódik.
+- Bizonyos tile-típusok között jelenleg átfolyás (seam) figyelhető meg – ezek javítása a következő verziók egyik célja lesz.
 
 ## 🧱 Modellek
 - A korábbi player modell eltávolításra került – a jövőben .glb fájlban, animációval együtt kerül be.
