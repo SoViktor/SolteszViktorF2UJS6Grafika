@@ -125,7 +125,7 @@ Több anyagos / több textúrás modellek (.obj + .mtl alapján)
 ## ⚠️ Megjegyzés
 - A projektet sajnos egy komoly hiba miatt újra kellett kezdeni. Emiatt előfordulhatnak olyan elemek, amelyek korábban már működtek, de a mostani verzióban még nincsenek implementálva.
 
-##📦 Assets
+## 📦 Assets
 -A szükséges assetek letölthetők innen:
 https://drive.google.com/file/d/1flusGZMYSA_hpVMtx_4PKbfYPpjnSGxJ/view?usp=sharing
 
